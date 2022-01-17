@@ -8,6 +8,10 @@ https://www.locurainformaticadigital.com/2018/09/08/descargar-e-instalar-postgre
 
 https://www.postman.com/downloads/
 
+## Documentacion de Prisma
+
+https://www.prisma.io/docs/reference/api-reference/prisma-client-reference#model-queries
+
 ## Como correr
 
 Instalar las dependencias
