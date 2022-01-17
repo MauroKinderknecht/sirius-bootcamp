@@ -15,6 +15,11 @@ Instalar las dependencias
 npm i
 ```
 
+Crear un archivo `.env`
+```
+DATABASE_URL="postgresql://postgres:postgres@localhost:5432/sirius-bootcamp"
+```
+
 Correr el proyecto
 ```
 npm start
