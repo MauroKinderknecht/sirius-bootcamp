@@ -17,5 +17,5 @@ npx prisma init
 
 ### Migrar schema de Prisma
 ```
-npx prisma migrate
+npx prisma migrate dev
 ```
