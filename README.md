@@ -24,6 +24,12 @@ Correr el proyecto
 ```
 npm start
 ```
+## Ejercicios
+
+- Completar los archivos de `src/components/controller/post` utilizando de ejemplo `src/components/controller/user`
+- Crear un router con endpoints para crear, modificar, borrar y obtener posts
+- Añadir el router creado a `router/index.js`
+
 ## Para los proyectos finales
 
 ### Instalar Prisma
