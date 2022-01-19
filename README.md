@@ -28,8 +28,7 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/sirius-bootcamp"
 ACCESS_TOKEN_SECRET="secret"
 
 # Server
-PORT=5001
-
+PORT=5000
 ```
 
 Correr el proyecto
