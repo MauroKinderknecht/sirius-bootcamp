@@ -1,8 +1,8 @@
 import jwt from 'jsonwebtoken';
 
-const generateAccessToken = ({ data }) => {
+const generateAccessToken = (data) => {
     const payload = {
-        ...data,
+        data,
     }
 
     return jwt.sign(payload, process.env.ACCESS_TOKEN_SECRET);

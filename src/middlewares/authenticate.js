@@ -12,6 +12,8 @@ const withAuth = (req, res, next) => {
         return res.status(401).json('Access token is not valid');
     }
 
+    console.log(validated)
+
     res.locals.userId = validated.data.userId;
     next();
 }

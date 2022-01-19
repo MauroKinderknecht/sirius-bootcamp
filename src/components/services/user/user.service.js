@@ -22,6 +22,7 @@ export class UserService {
     }
 
     static create = async ({ name, email, password }) => {
+        console.log(password);
         const hashedPassword = await hashPassword(password);
         console.log(hashedPassword);
         return prisma.user.create({
@@ -50,7 +51,6 @@ export class UserService {
         if (!user) return false;
 
         const validated = await validatePassword(password, user.password);
-        console.log(validated);
         if (!validated) return false;
 
         delete user.password;
