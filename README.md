@@ -21,7 +21,15 @@ npm i
 
 Crear un archivo `.env`
 ```
+# Database
 DATABASE_URL="postgresql://postgres:postgres@localhost:5432/sirius-bootcamp"
+
+# Authentication
+ACCESS_TOKEN_SECRET="secret"
+
+# Server
+PORT=5001
+
 ```
 
 Correr el proyecto
